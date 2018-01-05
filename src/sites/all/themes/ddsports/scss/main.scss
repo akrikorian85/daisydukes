@@ -1,0 +1,20 @@
+// Modules and Variables
+$desktop-breakpoint: 737px;
+$vertical-padding-mobile: 20px;
+$side-padding-mobile: 20px;
+$vertical-padding-desktop: 20px; 
+$side-padding-desktop: 20px;
+$desktop-layout: 1024px;
+
+// Font variables
+$font-stack: "Helvetica", sans-serif;
+
+@import 'modules/all';
+
+// Partials
+@import 'partials/typography';
+@import 'partials/structure';
+@import 'partials/content';
+@import 'partials/magnific-popup';
+@import 'partials/page-specific';
+@import 'partials/login';

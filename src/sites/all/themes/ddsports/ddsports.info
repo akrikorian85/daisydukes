@@ -1,0 +1,17 @@
+name = Ddsports
+description = A custom theme for the Ddsports
+package = Ddsports
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = build/css/main.css
+; stylesheets[print][] = build/css/print.css
+
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+; regions[highlighted] = Highlighted
+regions[content] = Content
+regions[search] = Search
+regions[footer] = Footer

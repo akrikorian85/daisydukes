@@ -1,0 +1,18 @@
+// This file contains the structure of the site. These styles build the basic
+// wire-frame of the site. Specific components such as slide-shows, accordions,
+.wrapper {
+  min-width: 320px;
+
+  header {
+    #logo {
+      img {
+        width: 125px;
+      } 
+    }
+  }
+}
+@media(min-width: $desktop-breakpoint) {
+  .wrapper {
+      width: $desktop-layout;
+  }
+}

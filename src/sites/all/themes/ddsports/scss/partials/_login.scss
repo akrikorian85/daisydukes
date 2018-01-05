@@ -1,0 +1,24 @@
+@media(max-width: $desktop-breakpoint - 1) {
+  .page-user {
+    #content {
+      padding: $vertical-padding-mobile $side-padding-mobile;
+
+      form {
+        input {
+          width: 100%;
+        }
+      }
+      .tabs.primary {
+        padding-left: 0;
+        margin: 0;
+      }
+    }
+  }
+}
+@media (min-width: $desktop-breakpoint) {
+  .page-user {
+    #content {
+      padding: $vertical-padding-desktop $side-padding-desktop;
+    }
+  }
+}
